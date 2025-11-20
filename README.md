@@ -70,13 +70,21 @@
   </div>
 
   <!-- Ailes d’oiseau -->
-  <div class="tile">
-    <svg viewBox="0 0 64 64">
-      <path d="M4 38 C14 18, 32 16, 54 20" fill="#dff0ff" stroke="#76aaf5" stroke-width="4"/>
-      <path d="M8 42 C16 30, 28 26, 42 24" stroke="#4d87f3" stroke-width="3" fill="none"/>
-      <path d="M10 48 C18 36, 28 32, 38 30" stroke="#4d87f3" stroke-width="3" fill="none"/>
-    </svg>
-  </div>
+ <div class="tile" style="
+    width:180px;
+    height:180px;
+    background:white;
+    border-radius:14px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;">
+    
+  <img src="/mnt/data/bird-wings-png-bird-wing-transparent-background-11562925047skas4oit1m.png"
+       alt="Aile d'oiseau"
+       style="width:140px; height:auto;">
+</div>
 
 </div>
 
